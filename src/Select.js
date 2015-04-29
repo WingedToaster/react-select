@@ -229,7 +229,7 @@ var Select = React.createClass({
 		this._focusAfterUpdate = true;
 		var newState = this.getStateFromValue(value);
 		newState.isOpen = false;
-		this.fireChangeEvent(newState);
+		//this.fireChangeEvent(newState);
 		this.setState(newState);
 	},
 
